@@ -21,6 +21,7 @@ public class logintoApplication {
 		boolean ismatches = actualURL.matches(expectedUrl);
 		System.out.println(ismatches);
 		driver.quit();
+System.out.println(ismatches);
 	}
 
 }
